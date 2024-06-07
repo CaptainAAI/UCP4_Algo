@@ -23,18 +23,6 @@ public:
         front = NULL;
         rear = NULL;
     }
-
-
-
-
-
-
-
-    // d. Exit
-
-
-
-    // LENGKAPI FUNGSI INI SESUAI ALOGORITMA DIATAS
     void insert()
     {
         int value;
@@ -55,12 +43,6 @@ public:
 
 
     }
-
-    
-     
-    
-
-    // LENGKAPI FUNGSI INI SESUAI ALOGORITMA DIATAS
     void deleteQueue()
     {
         if (isEmpty())//1. If the queue is empty:    // FRONT = NULL
@@ -73,8 +55,6 @@ public:
         delete current;//4. Release the memory for the node marked as current
         cout << "first data has been deleted" << endl;
     }
-
-
     // Function to display all elements of the queue
     void display()
     {
